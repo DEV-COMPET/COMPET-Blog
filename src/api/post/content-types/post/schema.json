@@ -29,15 +29,10 @@
       "type": "string",
       "required": true
     },
-    "thumb": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "date": {
+      "type": "string"
+    },
+    "thumb_url": {
       "type": "string"
     }
   }
